@@ -6,7 +6,8 @@
     position: relative;
     margin: 0px auto;
     color: gray;
-
+    border-bottom: none;
+    font-size: x-large;
     display: -webkit-flexbox;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -27,6 +28,8 @@
     /* position: relative; */
     margin:  auto 194px;
     color: gray;
+    border-top: none;
+    font-size: x-large;
 
     display: -webkit-flexbox;
     display: -ms-flexbox;
@@ -46,6 +49,8 @@
     margin: -602px auto;
     color: gray;
     margin-left: 395px;   
+    border-top: none;
+    font-size: x-large;
 
     display: -webkit-flexbox;
     display: -ms-flexbox;
@@ -60,12 +65,15 @@
 }
 
 #d {
-    background-color: #940606;
+    background-color: #d3d0d0;
     width: 380px;
     height: 200px;
     margin: -602px auto;
     color: gray;
-    margin-left: 550px;   
+    margin-left: 775px;
+    margin-top: 400px;    
+    border-top: none;
+    font-size: x-large;
 
     display: -webkit-flexbox;
     display: -ms-flexbox;
@@ -79,3 +87,4 @@
     border:1px solid gray ;
     
 }
+
