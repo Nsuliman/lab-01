@@ -1,8 +1,11 @@
+
+/* First design for mobile phone then for deskyop , Nice Wallah  */
+/* Mobile View for 480px  */
 div {
     float: left;
-    border: 1px solid rgb(102, 100, 100);
-    background-color: rgb(180, 179, 179);
-    color: rgb(59, 59, 59);
+    background-color: rgb(112, 241, 94);
+    border: 1px solid rgb(210, 108, 241);
+    color: rgb(10, 10, 9);
     width: 100%;
 }
 .a {
@@ -22,13 +25,15 @@ div {
     height: 80px;
 }
 
+
+/* Desktop view for 768px  */
 @media(min-width: 768px) {
 
     div
     {
-        background-color: rgb(64, 167, 214);
-        border: 1px solid rgb(206, 85, 85);
-        color: wheat;
+        border: 1px solid rgb(102, 100, 100);
+        background-color: rgb(180, 179, 179);
+        color: rgb(59, 59, 59);
     }
     .a {
         height: 100px;
@@ -50,3 +55,30 @@ div {
         width: 760px;
     }
 }
+
+
+/* Mobile View for 480px 
+@media only screen and (max-width: 480px) {
+
+    div
+    {
+        background-color: rgb(112, 241, 94);
+        border: 1px solid rgb(210, 108, 241);
+        color: rgb(10, 10, 9);
+    }
+    .a {
+        height: 75px;
+    }
+    .b {
+        height: 150px;
+    }
+    .c, .d {
+        height: 125px;
+    }
+    .e, .f, .g, .h {
+        height: 250px;
+    }
+    .i {
+        height: 80px;
+    }
+} */
