@@ -1,0 +1,84 @@
+
+/* First design for mobile phone then for deskyop , Nice Wallah  */
+/* Mobile View for 480px  */
+div {
+    float: left;
+    background-color: rgb(112, 241, 94);
+    border: 1px solid rgb(210, 108, 241);
+    color: rgb(10, 10, 9);
+    width: 100%;
+}
+.a {
+    height: 75px;
+}
+.b {
+    height: 150px;
+}
+.c, .d {
+    height: 125px;
+}
+.e, .f, .g, .h {
+    width: 50%;
+    height: 250px;
+}
+.i {
+    height: 80px;
+}
+
+
+/* Desktop view for 768px  */
+@media(min-width: 768px) {
+
+    div
+    {
+        border: 1px solid rgb(102, 100, 100);
+        background-color: rgb(180, 179, 179);
+        color: rgb(59, 59, 59);
+    }
+    .a {
+        height: 100px;
+    }
+    .b {
+        height: 600px;
+        width: 200px;
+    }
+    .c, .d {
+        height: 200px;
+        width: 380px;
+    }
+    .e, .f, .g, .h {
+        width: 190px;
+        height: 250px;
+    }
+    .i {
+        height: 150px;
+        width: 760px;
+    }
+}
+
+
+/* Mobile View for 480px 
+@media only screen and (max-width: 480px) {
+
+    div
+    {
+        background-color: rgb(112, 241, 94);
+        border: 1px solid rgb(210, 108, 241);
+        color: rgb(10, 10, 9);
+    }
+    .a {
+        height: 75px;
+    }
+    .b {
+        height: 150px;
+    }
+    .c, .d {
+        height: 125px;
+    }
+    .e, .f, .g, .h {
+        height: 250px;
+    }
+    .i {
+        height: 80px;
+    }
+} */

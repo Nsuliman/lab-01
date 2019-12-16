@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 480px;
+    margin: 0px auto;
+    
+}
+
+@media(min-width: 768px) {
+    body {
+        width: 960px;
+    }
+}
